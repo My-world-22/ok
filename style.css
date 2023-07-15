@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+#header {
+    height: 10vh;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 1, 238);
+}
+#header h1{
+    margin: 0;
+    color: white;
+}
+
+#main {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    font-family: 'Raleway', sans-serif;
+    flex-direction: column;
+    /*text-align: center;*/
+}
+
+#main h2 {
+    margin-bottom: 10%;
+    font-size: xx-large;
+}
+#boxInput{
+    display: flex;
+    flex-direction: column;
+}
+
+#titleQuery {
+    font-size: x-large;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 30px;
+    width: 500px;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+#locationQuery{
+    font-size: x-large;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 30px;
+    width: 500px;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+span{
+    font-size: 2em;
+}
+
+button{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+    background: rgb(255, 1, 238);
+    font-size: large;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+button:hover{
+    background-color: white;
+    color:  rgb(255, 1, 238);
+}
+#footer{
+    height:10%;
+    background: rgb(255, 1, 238);
+}
+#lastSection{
+    height: 100%;
+    display: flex;
+    list-style: none;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    font-size: xx-large;
+    margin: 0;
+}
+#lastSection li{
+    cursor: pointer;
+}
+#icons{
+    cursor: pointer;
+    display: flex;
+}
+#icons ion-icon{
+    margin-left: 50px;
+}
